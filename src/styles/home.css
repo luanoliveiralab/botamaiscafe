@@ -58,7 +58,8 @@
 }
 
 #banner img {
-    border: solid var(--color-primary-4) 5px;
+    border: solid var(--color-primary-4) 4px;
+    box-shadow: var(--color-neutral-1) 5px 5px 15px;
     border-radius: 30% 0% 30% 0%;
     width: fit-content;
     max-width: 600px;
@@ -88,4 +89,5 @@
     #phone_button button {
         display: none;
     }
+
 }
