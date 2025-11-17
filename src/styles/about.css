@@ -1,0 +1,44 @@
+#about {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+    background-color: var(--color-primary-7);
+}
+
+#cta2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#cta2 .title1 {
+    font-size: 3rem;
+    color: var(--color-primary-5);
+}
+#cta2 .title2 {
+    font-size: 2rem;
+    color: var(--color-primary-5);
+}
+
+#cta2 .title1 span {
+    color: var(--color-neutral-0);
+}
+
+#cta2 .description2 {
+    font-size: 1.1rem;
+    color: var(--color-neutral-0);
+}
+
+@media screen and (max-width: 1170px) {
+    #about {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #cta2 {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
