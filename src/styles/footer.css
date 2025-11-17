@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--color-primary-3);
+    background-color: var(--color-primary-4);
 }
 
 #footer_items {
@@ -19,4 +19,5 @@ footer {
         flex-direction: column;
         gap: 20px;
     }
+
 }
